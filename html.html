@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple JS Game</title>
+    <!-- defer makes the script non-blocking, ensuring that it runs only after the HTML is fully parsed. -->
+    <script src="js.js" defer></script>
+</head>
+<style>
+    body{
+overflow: hidden;
+background-color: black;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+    }
+    canvas{
+        border:2px solid red;
+        width: 100%;
+        background-color: black;
+    }
+    *{
+        user-select: none;
+    }
+</style>
+<body>
+    <h1> Simple Java Script Game</h1>
+    <p>Left click on canvas to move your player.Try to reach the goal without being caught by enemies.</p>
+     <canvas id="mycanvas" width="640" height="320"></canvas> <!--HTML < canvas > element, which is used to draw graphics programmatically on a web page. -->
+</body>
+</html>
